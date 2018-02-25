@@ -86,16 +86,16 @@ Rails.application.configure do
 
   config.action_mailer.raise_delivery_errors = true
 
-  config.action_mailer.delivery_method = :smtp
-  config.action_mailer.smtp_settings = {
-    address: "smtp.gmail.com",
-    port: 587,
-    domain: "example.com",
-    authentication: "plain",
-    enable_starttls_auto: true,
-    user_name: "khajamainoddinror@gmail.com",
-    password: "khaja1990@"
-  }
+  # config.action_mailer.delivery_method = :smtp
+  # config.action_mailer.smtp_settings = {
+  #   address: "smtp.gmail.com",
+  #   port: 587,
+  #   domain: "example.com",
+  #   authentication: "plain",
+  #   enable_starttls_auto: true,
+  #   user_name: "khajamainoddinror@gmail.com",
+  #   password: "khaja1990@"
+  # }
 
   config.action_mailer.default_url_options = { host: "mysterious-stream-53254.herokuapp.com" }
 end
