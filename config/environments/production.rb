@@ -97,5 +97,5 @@ Rails.application.configure do
     password: "khaja1990@"
   }
 
-  config.action_mailer.default_url_options = { host: "localhost:3000" }
+  config.action_mailer.default_url_options = { host: "mysterious-stream-53254.herokuapp.com" }
 end
